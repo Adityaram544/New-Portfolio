@@ -1,0 +1,144 @@
+// ============================================================
+// portfolioData.js — Edit ALL your personal info here
+// This is the only file you need to change for your content
+// ============================================================
+
+export const personalInfo = {
+  name: "Aditya Ram",
+  role: "Full Stack Developer",
+  tagline: "A problem solver and developer currently pursuing Computer Science, with interests in algorithms, full-stack development, and building impactful software.",
+  bio: "I'm a full stack developer passionate about crafting products that are both technically solid and beautifully designed. From pixel-perfect frontends to scalable backends — I bring ideas from concept to deployment.",
+  bio2: "Currently completing a Full Stack Web Development internship at Future Interns, building real-world applications and growing every day.",
+  email: "adityaram2005adi@gmail.com",
+  github: "https://github.com/adityaram544",
+  linkedin: "https://linkedin.com/in/aditya565",
+  resume: "https://cdn.jsdelivr.net/gh/Adityaram544/Certificates@main/Aditya%20Resumee.pdf",
+  availableForWork: true,
+};
+
+export const skills = [
+  {
+    category: "Frontend",
+    icon: "🎨",
+    items: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS"],
+  },
+  {
+    category: "Backend",
+    icon: "⚙️",
+    items: ["Node.js", "Express.js", "REST APIs", "Django"],
+  },
+  {
+    category: "Database",
+    icon: "🗄️",
+    items: ["MySQL", "MongoDB"],
+  },
+  {
+    category: "Tools & DevOps",
+    icon: "🛠️",
+    items: ["Git & GitHub", "VS Code", "Docker", "Vercel"],
+  },
+];
+
+export const projects = [
+    {
+    id: 1,
+    task: "Project 01",
+    type: "Expense Tracker",
+    title: "Personal Expense Tracker",
+    description:
+      "A web application to track daily expenses with add, delete, and category management features. Built using Local Storage to persist data in the browser.",
+    stack: ["HTML", "CSS", "JavaScript", "Bootstrap", "LocalStorage"],
+    github: "https://github.com/Adityaram544/Expense-Tracker",
+    live: "https://adityaram544.github.io/Expense-Tracker/",
+    emoji: "💰",
+    color: "from-emerald-950 to-green-900",
+  },
+  {
+    id: 2,
+    task: "Project 02",
+    type: "Task Manager",
+    title: "Task Tracker Application",
+    description:
+      "A productivity app that helps users manage daily tasks with add, delete, and completion tracking features using Local Storage for data persistence.",
+    stack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    github: "https://github.com/Adityaram544/Task-Tracker",
+    live: "https://adityaram544.github.io/Task-Tracker/",
+    emoji: "✅",
+    color: "from-violet-950 to-purple-900",
+  },
+  {
+    id: 3,
+    task: "Project 03",
+    type: "Authentication System",
+    title: "Firebase Login Authentication",
+    description:
+      "A secure authentication system with user signup and login using Firebase Authentication, enabling real-time user verification and access control.",
+    stack: ["HTML", "CSS", "JavaScript", "Firebase Auth"],
+    github: "https://github.com/Adityaram544/firebase-authentication-login-system",
+    live: "https://firebase-authentication-login-syste.vercel.app/",
+    emoji: "🔐",
+    color: "from-rose-950 to-red-900",
+  },
+];
+
+export const education = [
+  {
+    date: "2023 — Present",
+    degree: "B.Tech in Computer Science",
+    institution: "Aditya University",
+    description:
+      "Currently pursuing Bachelor's degree in Computer Science. Learning data structures, algorithms, databases, and full stack web development.",
+  },
+  {
+    date: "2021 — 2023",
+    degree: "Intermediate (MPC)",
+    institution: "Narayana Junior College",
+    description:
+      "Studied Mathematics, Physics, and Chemistry with strong focus on analytical and problem-solving skills.",
+  },
+  {
+    date: "2020 — 2021",
+    degree: "SSC (10th Class)",
+    institution: "Z P High School",
+    description:
+      "Completed secondary education with strong academic foundation and interest in technology.",
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Oracle Java Foundations",
+    issuer: "Oracle",
+    link: "https://drive.google.com/file/d/1qr49t_7JlqupIrhxGGCt4NKMtDTz7yab/view?usp=drive_link",
+    skills: ["Java", "OOP", "Programming"]
+  },
+  {
+    id: 2,
+    title: "Fundamentals of Deep Learning",
+    issuer: "NVIDIA Deep Learning Institute",
+    link: "https://drive.google.com/file/d/1VMLqlvte_DwrTOgCYZG3pEv1GT_xh9hf/view?usp=drive_link",
+    skills: ["Deep Learning", "Neural Networks", "AI"]
+  },
+  {  
+    id: 3,
+    title: "Google Cloud Career Launchpad – Data Analytics Track",
+    issuer: "Google Cloud",
+    link: "https://drive.google.com/file/d/1oRqpaPD-bOYjDw7NR79F4xcdf6oKOFbP/view?usp=drive_link", 
+    skills: ["Data Analytics", "Data Visualization"]
+  },
+  {
+    id: 4,
+    title: "Operating Systems Basics",
+    issuer: "Cisco Networking Academy",
+    link: "https://drive.google.com/file/d/15DI5a2a1GcDfrjBkQ8zMvdDwEx_cD2zr/view?usp=drive_link",
+    skills: ["OS", "Linux", "System Administration"]
+  },
+  {
+    id: 5,
+    title: "Python Essentials",
+    issuer: "Cisco Networking Academy",
+    link: "https://drive.google.com/file/d/1lS6E3RbeZE-HZbcCwhLhtFEiIjomhbm9/view?usp=drive_link",
+    skills: ["Python", "Programming"]
+  }
+];

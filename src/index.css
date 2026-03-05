@@ -1,0 +1,46 @@
+/* ============================================================
+   index.css — Global styles
+   Tailwind base + custom animations used across the site
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default scrollbar styling on dark bg */
+body {
+  background-color: #09090b; /* zinc-950 */
+}
+
+/* ============================================================
+   @keyframes used by components
+   ============================================================ */
+
+/* Marquee — used in Marquee.jsx */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* Pulse glow — used by available badge */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(163, 230, 53, 0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(163, 230, 53, 0); }
+}
+
+/* Fix browser autofill white background */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #111827 inset;
+  box-shadow: 0 0 0px 1000px #111827 inset;
+  -webkit-text-fill-color: #d4d4d8;
+  transition: background-color 5000s ease-in-out 0s;
+}
