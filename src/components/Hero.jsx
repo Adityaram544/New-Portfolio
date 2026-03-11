@@ -2,7 +2,7 @@
 // Hero.jsx — Full-screen landing section
 // ============================================================
 
-import profile from "../assets/profile.jpg"; // change to your image path
+import profile from "../assets/Adi's Ai pic 2.png"; // change to your image path
 import { personalInfo } from "../data/portfolioData";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
